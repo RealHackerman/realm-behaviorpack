@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Realm Custom Behavior Pack",
+        "description": "",
+        "uuid": "55f61f69-236d-4d73-b6d7-438f9373685e",
+        "min_engine_version": [1, 12, 0],
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "description": "",
+            "type": "data",
+            "uuid": "5ed2c367-94cf-4753-8db6-09b31bbc472f",
+            "version": [0, 0, 1]
+        }
+    ]
+}
