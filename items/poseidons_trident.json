@@ -1,0 +1,43 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "artifact:poseidons_trident",
+        "category": "equipment"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "artifact.poseidons_trident"
+        },
+        "minecraft:creative_category": {
+            "parent": "itemGroup.name.sword"
+        },
+        "minecraft:max_stack_size": 1,
+        "minecraft:foil": true,
+        "minecraft:throwable": {
+            "min_draw_duration": 2,
+            "max_draw_duration": 4,
+            "scale_power_by_draw_duration": true
+        },
+         "minecraft:projectile": {
+            "projectile_entity": "artifact:thrown_poseidons_trident",
+            "minimum_critical_power": 1.0
+        },
+        "on_use": {
+            "event": "throw"
+        }
+    },
+    "events": {
+        "throw": {
+            "swing": {},
+            "decrement_stack": {},
+            "run_command": {
+                "command": [
+                    "playsound fire.ignite",
+                    "playsound mob.witch.throw"
+                ]
+            }
+        }
+    }
+  }
+}
