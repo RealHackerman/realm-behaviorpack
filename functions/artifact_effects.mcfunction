@@ -13,3 +13,6 @@ execute at @e[scores={is_frozen=1..}] run particle minecraft:blue_flame_particle
 execute at @e[scores={is_frozen=1..}] run particle minecraft:blue_flame_particle ~-0.75 ~1 ~
 execute at @e[scores={is_frozen=1..}] run particle minecraft:blue_flame_particle ~ ~1 ~-0.75
 scoreboard players remove @e[scores={is_frozen=1..}] is_frozen 1
+
+execute at @a[hasitem={location=slot.weapon.mainhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 1 1 true
+execute at @a[hasitem={location=slot.weapon.offhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 1 1 true
