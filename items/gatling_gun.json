@@ -1,0 +1,37 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "artifact:gatling_gun",
+        "category": "equipment"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "artifact.gatling_gun"
+        },
+        "minecraft:max_stack_size": 1,
+        "minecraft:foil": true,
+        "minecraft:on_use": {
+            "on_use": {
+                "event": "throw",
+                "target": "self"
+            }
+        }
+    },
+    "events": {
+        "throw": {
+            "shoot": {
+                "projectile": "minecraft:arrow",
+                "launch_power": 0.3,
+                "angle_offset": 0
+            },
+            "run_command": {
+                "command": [
+                    "execute @s[hasitem={item=minecraft:arrow,quantity=0}] ~ ~ ~ say @e[type=arrow,r=10]",
+                    "clear @s arrow 0 1"
+                ]
+            }
+        }
+    }
+  }
+}
