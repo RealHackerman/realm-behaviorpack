@@ -1,0 +1,6 @@
+dialogue change @e[type=npc] buy_hay_bales_0 @a[hasitem={item=hay_block, quantity=0..3}]
+dialogue change @e[type=npc] buy_hay_bales_1 @a[hasitem={item=hay_block, quantity=4..15}]
+dialogue change @e[type=npc] buy_hay_bales_4 @a[hasitem={item=hay_block, quantity=16..63}]
+dialogue change @e[type=npc] buy_hay_bales_16 @a[hasitem={item=hay_block, quantity=64..255}]
+dialogue change @e[type=npc] buy_hay_bales_64 @a[hasitem={item=hay_block, quantity=256..575}]
+dialogue change @e[type=npc] buy_hay_bales_144 @a[hasitem={item=hay_block, quantity=576..}]

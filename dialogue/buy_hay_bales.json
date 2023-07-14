@@ -1,0 +1,146 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "buy_hay_bales_0",
+                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds"
+            },
+            {
+                "scene_tag": "buy_hay_bales_1",
+                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "buttons": [
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator hay_block 0 4",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "buy_hay_bales_4",
+                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "buttons": [
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator hay_block 0 4",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator hay_block 0 16",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "buy_hay_bales_16",
+                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "buttons": [
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator hay_block 0 4",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator hay_block 0 16",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator hay_block 0 64",
+                            "/give @initiator emerald 16 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "buy_hay_bales_64",
+                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "buttons": [
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator hay_block 0 4",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator hay_block 0 16",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator hay_block 0 64",
+                            "/give @initiator emerald 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 256",
+                        "commands": [
+                            "/clear @initiator hay_block 0 256",
+                            "/give @initiator emerald 64 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "buy_hay_bales_144",
+                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "buttons": [
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator hay_block 0 4",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator hay_block 0 16",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator hay_block 0 64",
+                            "/give @initiator emerald 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 4x64 (256)",
+                        "commands": [
+                            "/clear @initiator hay_block 0 256",
+                            "/give @initiator emerald 64 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 9x64 (576)",
+                        "commands": [
+                            "/clear @initiator hay_block 0 576",
+                            "/give @initiator emerald 144 0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
