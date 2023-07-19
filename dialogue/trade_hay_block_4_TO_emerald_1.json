@@ -3,12 +3,12 @@
     "minecraft:npc_dialogue": {
         "scenes": [
             {
-                "scene_tag": "buy_hay_bales_0",
-                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds"
+                "scene_tag": "trade_hay_block_4_TO_emerald_1_X0",
+                "text": "I'll give §l1 Emerald§r for §l4 Hay Bales§r \n - 4 Hay Bales = 1 Emerald \n - 16 Hay Bales = 4 Emeralds \n - 64 Hay Bales = 16 Emeralds \n - 256 Hay Bales = 64 Emeralds \n - 576 Hay Bales = 144 Emeralds \n"
             },
             {
-                "scene_tag": "buy_hay_bales_1",
-                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "scene_tag": "trade_hay_block_4_TO_emerald_1_X1",
+                "text": "I'll give §l1 Emerald§r for §l4 Hay Bales§r \n - 4 Hay Bales = 1 Emerald \n - 16 Hay Bales = 4 Emeralds \n - 64 Hay Bales = 16 Emeralds \n - 256 Hay Bales = 64 Emeralds \n - 576 Hay Bales = 144 Emeralds \n",
                 "buttons": [
                     {
                         "name": "Sell 4",
@@ -20,8 +20,8 @@
                 ]
             },
             {
-                "scene_tag": "buy_hay_bales_4",
-                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "scene_tag": "trade_hay_block_4_TO_emerald_1_X4",
+                "text": "I'll give §l1 Emerald§r for §l4 Hay Bales§r \n - 4 Hay Bales = 1 Emerald \n - 16 Hay Bales = 4 Emeralds \n - 64 Hay Bales = 16 Emeralds \n - 256 Hay Bales = 64 Emeralds \n - 576 Hay Bales = 144 Emeralds \n",
                 "buttons": [
                     {
                         "name": "Sell 4",
@@ -40,8 +40,8 @@
                 ]
             },
             {
-                "scene_tag": "buy_hay_bales_16",
-                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "scene_tag": "trade_hay_block_4_TO_emerald_1_X16",
+                "text": "I'll give §l1 Emerald§r for §l4 Hay Bales§r \n - 4 Hay Bales = 1 Emerald \n - 16 Hay Bales = 4 Emeralds \n - 64 Hay Bales = 16 Emeralds \n - 256 Hay Bales = 64 Emeralds \n - 576 Hay Bales = 144 Emeralds \n",
                 "buttons": [
                     {
                         "name": "Sell 4",
@@ -67,8 +67,8 @@
                 ]
             },
             {
-                "scene_tag": "buy_hay_bales_64",
-                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "scene_tag": "trade_hay_block_4_TO_emerald_1_X64",
+                "text": "I'll give §l1 Emerald§r for §l4 Hay Bales§r \n - 4 Hay Bales = 1 Emerald \n - 16 Hay Bales = 4 Emeralds \n - 64 Hay Bales = 16 Emeralds \n - 256 Hay Bales = 64 Emeralds \n - 576 Hay Bales = 144 Emeralds \n",
                 "buttons": [
                     {
                         "name": "Sell 4",
@@ -101,8 +101,8 @@
                 ]
             },
             {
-                "scene_tag": "buy_hay_bales_144",
-                "text": "I'll give §l1 emerald§r for §l4 hay bales§r \n - 4 hay bales = 1 emerald \n - 16 hay bales = 4 emeralds \n - 64 hay bales = 16 emerald \n - 4 stacks hay bales = 1 stack (64) emeralds \n - 9 stacks (576) hay bales = 2.25 stacks (144) emeralds",
+                "scene_tag": "trade_hay_block_4_TO_emerald_1_X144",
+                "text": "I'll give §l1 Emerald§r for §l4 Hay Bales§r \n - 4 Hay Bales = 1 Emerald \n - 16 Hay Bales = 4 Emeralds \n - 64 Hay Bales = 16 Emeralds \n - 256 Hay Bales = 64 Emeralds \n - 576 Hay Bales = 144 Emeralds \n",
                 "buttons": [
                     {
                         "name": "Sell 4",
@@ -126,14 +126,14 @@
                         ]
                     },
                     {
-                        "name": "Sell 4x64 (256)",
+                        "name": "Sell 256",
                         "commands": [
                             "/clear @initiator hay_block 0 256",
                             "/give @initiator emerald 64 0"
                         ]
                     },
                     {
-                        "name": "Sell 9x64 (576)",
+                        "name": "Sell 576",
                         "commands": [
                             "/clear @initiator hay_block 0 576",
                             "/give @initiator emerald 144 0"

@@ -1,0 +1,146 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "trade_diamond_1_TO_emerald_2_X0",
+                "text": "I'll give §l2 Emeralds§r for §l1 Diamond§r \n - 1 Diamond = 2 Emeralds \n - 4 Diamonds = 8 Emeralds \n - 16 Diamonds = 32 Emeralds \n - 64 Diamonds = 128 Emeralds \n - 256 Diamonds = 512 Emeralds \n"
+            },
+            {
+                "scene_tag": "trade_diamond_1_TO_emerald_2_X1",
+                "text": "I'll give §l2 Emeralds§r for §l1 Diamond§r \n - 1 Diamond = 2 Emeralds \n - 4 Diamonds = 8 Emeralds \n - 16 Diamonds = 32 Emeralds \n - 64 Diamonds = 128 Emeralds \n - 256 Diamonds = 512 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 1",
+                        "commands": [
+                            "/clear @initiator diamond 0 1",
+                            "/give @initiator emerald 2 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_diamond_1_TO_emerald_2_X4",
+                "text": "I'll give §l2 Emeralds§r for §l1 Diamond§r \n - 1 Diamond = 2 Emeralds \n - 4 Diamonds = 8 Emeralds \n - 16 Diamonds = 32 Emeralds \n - 64 Diamonds = 128 Emeralds \n - 256 Diamonds = 512 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 1",
+                        "commands": [
+                            "/clear @initiator diamond 0 1",
+                            "/give @initiator emerald 2 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator diamond 0 4",
+                            "/give @initiator emerald 8 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_diamond_1_TO_emerald_2_X16",
+                "text": "I'll give §l2 Emeralds§r for §l1 Diamond§r \n - 1 Diamond = 2 Emeralds \n - 4 Diamonds = 8 Emeralds \n - 16 Diamonds = 32 Emeralds \n - 64 Diamonds = 128 Emeralds \n - 256 Diamonds = 512 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 1",
+                        "commands": [
+                            "/clear @initiator diamond 0 1",
+                            "/give @initiator emerald 2 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator diamond 0 4",
+                            "/give @initiator emerald 8 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator diamond 0 16",
+                            "/give @initiator emerald 32 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_diamond_1_TO_emerald_2_X64",
+                "text": "I'll give §l2 Emeralds§r for §l1 Diamond§r \n - 1 Diamond = 2 Emeralds \n - 4 Diamonds = 8 Emeralds \n - 16 Diamonds = 32 Emeralds \n - 64 Diamonds = 128 Emeralds \n - 256 Diamonds = 512 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 1",
+                        "commands": [
+                            "/clear @initiator diamond 0 1",
+                            "/give @initiator emerald 2 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator diamond 0 4",
+                            "/give @initiator emerald 8 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator diamond 0 16",
+                            "/give @initiator emerald 32 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator diamond 0 64",
+                            "/give @initiator emerald 128 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_diamond_1_TO_emerald_2_X256",
+                "text": "I'll give §l2 Emeralds§r for §l1 Diamond§r \n - 1 Diamond = 2 Emeralds \n - 4 Diamonds = 8 Emeralds \n - 16 Diamonds = 32 Emeralds \n - 64 Diamonds = 128 Emeralds \n - 256 Diamonds = 512 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 1",
+                        "commands": [
+                            "/clear @initiator diamond 0 1",
+                            "/give @initiator emerald 2 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 4",
+                        "commands": [
+                            "/clear @initiator diamond 0 4",
+                            "/give @initiator emerald 8 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator diamond 0 16",
+                            "/give @initiator emerald 32 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator diamond 0 64",
+                            "/give @initiator emerald 128 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 256",
+                        "commands": [
+                            "/clear @initiator diamond 0 256",
+                            "/give @initiator emerald 512 0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
