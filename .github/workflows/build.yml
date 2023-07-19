@@ -31,7 +31,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.ref_name }}
         run: |
-          gh release create "$tag" "./realm-behaviorpack.mcpack" \
+          version="$(grep -A1 -m 1 '"version"' manifest.json | grep -o "[0-9\]")"
+          version="$(echo $version|tr ' ' '\.')"
+          gh release create "$version" "./realm-behaviorpack.mcpack" \
               --repo="$GITHUB_REPOSITORY" \
-              --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
+              --title="Realm Behavior Pack v${version}" \
               --generate-notes
