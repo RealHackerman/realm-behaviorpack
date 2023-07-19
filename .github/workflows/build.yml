@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Create zip of repo
-        run: zip -r realm-behaviorpack.mcpack ./ -x .gitignore .github
+        run: zip -r realm-behaviorpack.mcpack ./ -x '*.git*'  -x '*.github*'  -x '*.gitignore*'
         
       - name: Create release
         env:
