@@ -1,0 +1,146 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "trade_oak_log_16_TO_emerald_1_X0",
+                "text": "I'll give §l1 Emerald§r for §l16 Oak Logs§r \n - 16 Oak Logs = 1 Emerald \n - 64 Oak Logs = 4 Emeralds \n - 256 Oak Logs = 16 Emeralds \n - 512 Oak Logs = 32 Emeralds \n - 1024 Oak Logs = 64 Emeralds \n"
+            },
+            {
+                "scene_tag": "trade_oak_log_16_TO_emerald_1_X1",
+                "text": "I'll give §l1 Emerald§r for §l16 Oak Logs§r \n - 16 Oak Logs = 1 Emerald \n - 64 Oak Logs = 4 Emeralds \n - 256 Oak Logs = 16 Emeralds \n - 512 Oak Logs = 32 Emeralds \n - 1024 Oak Logs = 64 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator oak_log 0 16",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_oak_log_16_TO_emerald_1_X4",
+                "text": "I'll give §l1 Emerald§r for §l16 Oak Logs§r \n - 16 Oak Logs = 1 Emerald \n - 64 Oak Logs = 4 Emeralds \n - 256 Oak Logs = 16 Emeralds \n - 512 Oak Logs = 32 Emeralds \n - 1024 Oak Logs = 64 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator oak_log 0 16",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator oak_log 0 64",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_oak_log_16_TO_emerald_1_X16",
+                "text": "I'll give §l1 Emerald§r for §l16 Oak Logs§r \n - 16 Oak Logs = 1 Emerald \n - 64 Oak Logs = 4 Emeralds \n - 256 Oak Logs = 16 Emeralds \n - 512 Oak Logs = 32 Emeralds \n - 1024 Oak Logs = 64 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator oak_log 0 16",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator oak_log 0 64",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 256",
+                        "commands": [
+                            "/clear @initiator oak_log 0 256",
+                            "/give @initiator emerald 16 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_oak_log_16_TO_emerald_1_X32",
+                "text": "I'll give §l1 Emerald§r for §l16 Oak Logs§r \n - 16 Oak Logs = 1 Emerald \n - 64 Oak Logs = 4 Emeralds \n - 256 Oak Logs = 16 Emeralds \n - 512 Oak Logs = 32 Emeralds \n - 1024 Oak Logs = 64 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator oak_log 0 16",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator oak_log 0 64",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 256",
+                        "commands": [
+                            "/clear @initiator oak_log 0 256",
+                            "/give @initiator emerald 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 512",
+                        "commands": [
+                            "/clear @initiator oak_log 0 512",
+                            "/give @initiator emerald 32 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_oak_log_16_TO_emerald_1_X64",
+                "text": "I'll give §l1 Emerald§r for §l16 Oak Logs§r \n - 16 Oak Logs = 1 Emerald \n - 64 Oak Logs = 4 Emeralds \n - 256 Oak Logs = 16 Emeralds \n - 512 Oak Logs = 32 Emeralds \n - 1024 Oak Logs = 64 Emeralds \n",
+                "buttons": [
+                    {
+                        "name": "Sell 16",
+                        "commands": [
+                            "/clear @initiator oak_log 0 16",
+                            "/give @initiator emerald 1 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 64",
+                        "commands": [
+                            "/clear @initiator oak_log 0 64",
+                            "/give @initiator emerald 4 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 256",
+                        "commands": [
+                            "/clear @initiator oak_log 0 256",
+                            "/give @initiator emerald 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 512",
+                        "commands": [
+                            "/clear @initiator oak_log 0 512",
+                            "/give @initiator emerald 32 0"
+                        ]
+                    },
+                    {
+                        "name": "Sell 1024",
+                        "commands": [
+                            "/clear @initiator oak_log 0 1024",
+                            "/give @initiator emerald 64 0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
