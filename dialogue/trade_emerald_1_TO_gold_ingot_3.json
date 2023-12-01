@@ -1,0 +1,146 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "trade_emerald_1_TO_gold_ingot_3_X0",
+                "text": "I'll give §l3 Gold Ingots§r for §l1 Emerald§r \n - 1 Emerald = 3 Gold Ingots \n - 4 Emeralds = 12 Gold Ingots \n - 16 Emeralds = 48 Gold Ingots \n - 64 Emeralds = 192 Gold Ingots \n - 144 Emeralds = 432 Gold Ingots \n"
+            },
+            {
+                "scene_tag": "trade_emerald_1_TO_gold_ingot_3_X1",
+                "text": "I'll give §l3 Gold Ingots§r for §l1 Emerald§r \n - 1 Emerald = 3 Gold Ingots \n - 4 Emeralds = 12 Gold Ingots \n - 16 Emeralds = 48 Gold Ingots \n - 64 Emeralds = 192 Gold Ingots \n - 144 Emeralds = 432 Gold Ingots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 3",
+                        "commands": [
+                            "/clear @initiator emerald 0 1",
+                            "/give @initiator gold_ingot 3 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_1_TO_gold_ingot_3_X4",
+                "text": "I'll give §l3 Gold Ingots§r for §l1 Emerald§r \n - 1 Emerald = 3 Gold Ingots \n - 4 Emeralds = 12 Gold Ingots \n - 16 Emeralds = 48 Gold Ingots \n - 64 Emeralds = 192 Gold Ingots \n - 144 Emeralds = 432 Gold Ingots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 3",
+                        "commands": [
+                            "/clear @initiator emerald 0 1",
+                            "/give @initiator gold_ingot 3 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 4",
+                            "/give @initiator gold_ingot 12 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_1_TO_gold_ingot_3_X16",
+                "text": "I'll give §l3 Gold Ingots§r for §l1 Emerald§r \n - 1 Emerald = 3 Gold Ingots \n - 4 Emeralds = 12 Gold Ingots \n - 16 Emeralds = 48 Gold Ingots \n - 64 Emeralds = 192 Gold Ingots \n - 144 Emeralds = 432 Gold Ingots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 3",
+                        "commands": [
+                            "/clear @initiator emerald 0 1",
+                            "/give @initiator gold_ingot 3 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 4",
+                            "/give @initiator gold_ingot 12 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 48",
+                        "commands": [
+                            "/clear @initiator emerald 0 16",
+                            "/give @initiator gold_ingot 48 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_1_TO_gold_ingot_3_X64",
+                "text": "I'll give §l3 Gold Ingots§r for §l1 Emerald§r \n - 1 Emerald = 3 Gold Ingots \n - 4 Emeralds = 12 Gold Ingots \n - 16 Emeralds = 48 Gold Ingots \n - 64 Emeralds = 192 Gold Ingots \n - 144 Emeralds = 432 Gold Ingots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 3",
+                        "commands": [
+                            "/clear @initiator emerald 0 1",
+                            "/give @initiator gold_ingot 3 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 4",
+                            "/give @initiator gold_ingot 12 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 48",
+                        "commands": [
+                            "/clear @initiator emerald 0 16",
+                            "/give @initiator gold_ingot 48 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 192",
+                        "commands": [
+                            "/clear @initiator emerald 0 64",
+                            "/give @initiator gold_ingot 192 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_1_TO_gold_ingot_3_X144",
+                "text": "I'll give §l3 Gold Ingots§r for §l1 Emerald§r \n - 1 Emerald = 3 Gold Ingots \n - 4 Emeralds = 12 Gold Ingots \n - 16 Emeralds = 48 Gold Ingots \n - 64 Emeralds = 192 Gold Ingots \n - 144 Emeralds = 432 Gold Ingots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 3",
+                        "commands": [
+                            "/clear @initiator emerald 0 1",
+                            "/give @initiator gold_ingot 3 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 4",
+                            "/give @initiator gold_ingot 12 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 48",
+                        "commands": [
+                            "/clear @initiator emerald 0 16",
+                            "/give @initiator gold_ingot 48 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 192",
+                        "commands": [
+                            "/clear @initiator emerald 0 64",
+                            "/give @initiator gold_ingot 192 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 144",
+                        "commands": [
+                            "/clear @initiator emerald 0 144",
+                            "/give @initiator gold_ingot 432 0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

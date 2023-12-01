@@ -1,0 +1,24 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "trade_emerald_8_TO_mending_enchant_1_X0",
+                "text": "I'll give §l1 Mending 1 Enchant§r for §l8 Emeralds§r \n - 8 Emeralds = 1 Mending 1 Enchant \n §cHold §lone§r§c book in mainhand to complete the enchant"
+            },
+            {
+                "scene_tag": "trade_emerald_8_TO_mending_enchant_1_X1",
+                "text": "I'll give §l1 Mending 1 Enchant§r for §l8 Emeralds§r \n - 8 Emeralds = 1 Mending 1 Enchant",
+                "buttons": [
+                    {
+                        "name": "Enchant 1",
+                        "commands": [
+                            "/clear @initiator emerald 0 8",
+                            "/enchant @initiator mending 1"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

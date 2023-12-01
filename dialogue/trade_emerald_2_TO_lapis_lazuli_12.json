@@ -1,0 +1,146 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "trade_emerald_2_TO_lapis_lazuli_12_X0",
+                "text": "I'll give §l12 Lapis Lazulis§r for §l2 Emeralds§r \n - 2 Emeralds = 12 Lapis Lazulis \n - 8 Emeralds = 48 Lapis Lazulis \n - 32 Emeralds = 192 Lapis Lazulis \n - 128 Emeralds = 768 Lapis Lazulis \n - 288 Emeralds = 1728 Lapis Lazulis \n"
+            },
+            {
+                "scene_tag": "trade_emerald_2_TO_lapis_lazuli_12_X1",
+                "text": "I'll give §l12 Lapis Lazulis§r for §l2 Emeralds§r \n - 2 Emeralds = 12 Lapis Lazulis \n - 8 Emeralds = 48 Lapis Lazulis \n - 32 Emeralds = 192 Lapis Lazulis \n - 128 Emeralds = 768 Lapis Lazulis \n - 288 Emeralds = 1728 Lapis Lazulis \n",
+                "buttons": [
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 2",
+                            "/give @initiator lapis_lazuli 12 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_2_TO_lapis_lazuli_12_X4",
+                "text": "I'll give §l12 Lapis Lazulis§r for §l2 Emeralds§r \n - 2 Emeralds = 12 Lapis Lazulis \n - 8 Emeralds = 48 Lapis Lazulis \n - 32 Emeralds = 192 Lapis Lazulis \n - 128 Emeralds = 768 Lapis Lazulis \n - 288 Emeralds = 1728 Lapis Lazulis \n",
+                "buttons": [
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 2",
+                            "/give @initiator lapis_lazuli 12 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 48",
+                        "commands": [
+                            "/clear @initiator emerald 0 8",
+                            "/give @initiator lapis_lazuli 48 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_2_TO_lapis_lazuli_12_X16",
+                "text": "I'll give §l12 Lapis Lazulis§r for §l2 Emeralds§r \n - 2 Emeralds = 12 Lapis Lazulis \n - 8 Emeralds = 48 Lapis Lazulis \n - 32 Emeralds = 192 Lapis Lazulis \n - 128 Emeralds = 768 Lapis Lazulis \n - 288 Emeralds = 1728 Lapis Lazulis \n",
+                "buttons": [
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 2",
+                            "/give @initiator lapis_lazuli 12 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 48",
+                        "commands": [
+                            "/clear @initiator emerald 0 8",
+                            "/give @initiator lapis_lazuli 48 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 192",
+                        "commands": [
+                            "/clear @initiator emerald 0 32",
+                            "/give @initiator lapis_lazuli 192 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_2_TO_lapis_lazuli_12_X64",
+                "text": "I'll give §l12 Lapis Lazulis§r for §l2 Emeralds§r \n - 2 Emeralds = 12 Lapis Lazulis \n - 8 Emeralds = 48 Lapis Lazulis \n - 32 Emeralds = 192 Lapis Lazulis \n - 128 Emeralds = 768 Lapis Lazulis \n - 288 Emeralds = 1728 Lapis Lazulis \n",
+                "buttons": [
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 2",
+                            "/give @initiator lapis_lazuli 12 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 48",
+                        "commands": [
+                            "/clear @initiator emerald 0 8",
+                            "/give @initiator lapis_lazuli 48 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 192",
+                        "commands": [
+                            "/clear @initiator emerald 0 32",
+                            "/give @initiator lapis_lazuli 192 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 768",
+                        "commands": [
+                            "/clear @initiator emerald 0 128",
+                            "/give @initiator lapis_lazuli 768 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_2_TO_lapis_lazuli_12_X144",
+                "text": "I'll give §l12 Lapis Lazulis§r for §l2 Emeralds§r \n - 2 Emeralds = 12 Lapis Lazulis \n - 8 Emeralds = 48 Lapis Lazulis \n - 32 Emeralds = 192 Lapis Lazulis \n - 128 Emeralds = 768 Lapis Lazulis \n - 288 Emeralds = 1728 Lapis Lazulis \n",
+                "buttons": [
+                    {
+                        "name": "Buy 12",
+                        "commands": [
+                            "/clear @initiator emerald 0 2",
+                            "/give @initiator lapis_lazuli 12 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 48",
+                        "commands": [
+                            "/clear @initiator emerald 0 8",
+                            "/give @initiator lapis_lazuli 48 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 192",
+                        "commands": [
+                            "/clear @initiator emerald 0 32",
+                            "/give @initiator lapis_lazuli 192 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 768",
+                        "commands": [
+                            "/clear @initiator emerald 0 128",
+                            "/give @initiator lapis_lazuli 768 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 1728",
+                        "commands": [
+                            "/clear @initiator emerald 0 288",
+                            "/give @initiator lapis_lazuli 1728 0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
