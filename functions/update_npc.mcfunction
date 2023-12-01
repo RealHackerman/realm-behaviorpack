@@ -114,8 +114,8 @@ dialogue change @e[tag=trade_emerald_64_TO_netherite_scrap_1,type=npc,c=1] trade
 dialogue change @e[tag=trade_emerald_8_TO_mending_enchant_1,type=npc,c=1] trade_emerald_8_TO_mending_enchant_1_X0 @a[hasitem=[{item=emerald, quantity=0..7},{location=slot.weapon.mainhand,item=book,quantity=!1}]]
 dialogue change @e[tag=trade_emerald_8_TO_mending_enchant_1,type=npc,c=1] trade_emerald_8_TO_mending_enchant_1_X1 @a[hasitem=[{item=emerald, quantity=8..},{location=slot.weapon.mainhand,item=book,quantity=1}]]
 
-dialogue change @e[tag=trade_emerald_20_TO_unbreaking_enchant_1,type=npc,c=1] trade_emerald_20_TO_unbreaking_enchant_1_X0 @a[hasitem=[{item=emerald, quantity=0..7},{location=slot.weapon.mainhand,item=book,quantity=!1}]]
-dialogue change @e[tag=trade_emerald_20_TO_unbreaking_enchant_1,type=npc,c=1] trade_emerald_20_TO_unbreaking_enchant_1_X1 @a[hasitem=[{item=emerald, quantity=8..},{location=slot.weapon.mainhand,item=book,quantity=1}]]
+dialogue change @e[tag=trade_emerald_20_TO_unbreaking_enchant_1,type=npc,c=1] trade_emerald_20_TO_unbreaking_enchant_1_X0 @a[hasitem=[{item=emerald, quantity=0..19},{location=slot.weapon.mainhand,item=book,quantity=!1}]]
+dialogue change @e[tag=trade_emerald_20_TO_unbreaking_enchant_1,type=npc,c=1] trade_emerald_20_TO_unbreaking_enchant_1_X1 @a[hasitem=[{item=emerald, quantity=20..},{location=slot.weapon.mainhand,item=book,quantity=1}]]
 
 dialogue change @e[tag=trade_emerald_20_TO_netherite_upgrade_smithing_template_1,type=npc,c=1] trade_emerald_20_TO_netherite_upgrade_smithing_template_1_X0 @a[hasitem={item=emerald, quantity=0..19}]
 dialogue change @e[tag=trade_emerald_20_TO_netherite_upgrade_smithing_template_1,type=npc,c=1] trade_emerald_20_TO_netherite_upgrade_smithing_template_1_X1 @a[hasitem={item=emerald, quantity=20..39}]
