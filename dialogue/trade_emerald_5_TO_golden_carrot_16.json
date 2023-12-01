@@ -1,0 +1,146 @@
+{
+    "format_version": "1.17",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "trade_emerald_5_TO_golden_carrot_16_X0",
+                "text": "I'll give §l16 Golden Carrots§r for §l5 Emeralds§r \n - 5 Emeralds = 16 Golden Carrots \n - 20 Emeralds = 64 Golden Carrots \n - 80 Emeralds = 256 Golden Carrots \n - 320 Emeralds = 1024 Golden Carrots \n - 720 Emeralds = 2304 Golden Carrots \n"
+            },
+            {
+                "scene_tag": "trade_emerald_5_TO_golden_carrot_16_X1",
+                "text": "I'll give §l16 Golden Carrots§r for §l5 Emeralds§r \n - 5 Emeralds = 16 Golden Carrots \n - 20 Emeralds = 64 Golden Carrots \n - 80 Emeralds = 256 Golden Carrots \n - 320 Emeralds = 1024 Golden Carrots \n - 720 Emeralds = 2304 Golden Carrots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 16",
+                        "commands": [
+                            "/clear @initiator emerald 0 5",
+                            "/give @initiator golden_carrot 16 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_5_TO_golden_carrot_16_X4",
+                "text": "I'll give §l16 Golden Carrots§r for §l5 Emeralds§r \n - 5 Emeralds = 16 Golden Carrots \n - 20 Emeralds = 64 Golden Carrots \n - 80 Emeralds = 256 Golden Carrots \n - 320 Emeralds = 1024 Golden Carrots \n - 720 Emeralds = 2304 Golden Carrots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 16",
+                        "commands": [
+                            "/clear @initiator emerald 0 5",
+                            "/give @initiator golden_carrot 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 64",
+                        "commands": [
+                            "/clear @initiator emerald 0 20",
+                            "/give @initiator golden_carrot 64 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_5_TO_golden_carrot_16_X16",
+                "text": "I'll give §l16 Golden Carrots§r for §l5 Emeralds§r \n - 5 Emeralds = 16 Golden Carrots \n - 20 Emeralds = 64 Golden Carrots \n - 80 Emeralds = 256 Golden Carrots \n - 320 Emeralds = 1024 Golden Carrots \n - 720 Emeralds = 2304 Golden Carrots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 16",
+                        "commands": [
+                            "/clear @initiator emerald 0 5",
+                            "/give @initiator golden_carrot 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 64",
+                        "commands": [
+                            "/clear @initiator emerald 0 20",
+                            "/give @initiator golden_carrot 64 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 256",
+                        "commands": [
+                            "/clear @initiator emerald 0 80",
+                            "/give @initiator golden_carrot 256 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_5_TO_golden_carrot_16_X64",
+                "text": "I'll give §l16 Golden Carrots§r for §l5 Emeralds§r \n - 5 Emeralds = 16 Golden Carrots \n - 20 Emeralds = 64 Golden Carrots \n - 80 Emeralds = 256 Golden Carrots \n - 320 Emeralds = 1024 Golden Carrots \n - 720 Emeralds = 2304 Golden Carrots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 16",
+                        "commands": [
+                            "/clear @initiator emerald 0 5",
+                            "/give @initiator golden_carrot 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 64",
+                        "commands": [
+                            "/clear @initiator emerald 0 20",
+                            "/give @initiator golden_carrot 64 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 256",
+                        "commands": [
+                            "/clear @initiator emerald 0 80",
+                            "/give @initiator golden_carrot 256 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 1024",
+                        "commands": [
+                            "/clear @initiator emerald 0 320",
+                            "/give @initiator golden_carrot 1024 0"
+                        ]
+                    }
+                ]
+            },
+            {
+                "scene_tag": "trade_emerald_5_TO_golden_carrot_16_X144",
+                "text": "I'll give §l16 Golden Carrots§r for §l5 Emeralds§r \n - 5 Emeralds = 16 Golden Carrots \n - 20 Emeralds = 64 Golden Carrots \n - 80 Emeralds = 256 Golden Carrots \n - 320 Emeralds = 1024 Golden Carrots \n - 720 Emeralds = 2304 Golden Carrots \n",
+                "buttons": [
+                    {
+                        "name": "Buy 16",
+                        "commands": [
+                            "/clear @initiator emerald 0 5",
+                            "/give @initiator golden_carrot 16 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 64",
+                        "commands": [
+                            "/clear @initiator emerald 0 20",
+                            "/give @initiator golden_carrot 64 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 256",
+                        "commands": [
+                            "/clear @initiator emerald 0 80",
+                            "/give @initiator golden_carrot 256 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 1024",
+                        "commands": [
+                            "/clear @initiator emerald 0 320",
+                            "/give @initiator golden_carrot 1024 0"
+                        ]
+                    },
+                    {
+                        "name": "Buy 2304",
+                        "commands": [
+                            "/clear @initiator emerald 0 720",
+                            "/give @initiator golden_carrot 2304 0"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
