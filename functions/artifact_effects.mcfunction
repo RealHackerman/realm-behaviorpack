@@ -16,3 +16,12 @@ scoreboard players remove @e[scores={is_frozen=1..}] is_frozen 1
 
 execute at @a[hasitem={location=slot.weapon.mainhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 1 1 true
 execute at @a[hasitem={location=slot.weapon.offhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 1 1 true
+
+execute at @e[scores={is_snowing=1..}] positioned ~ ~0.8 ~ run tp @e[type=artifact:target_dummy,c=1] ^ ^ ^2
+execute at @e[scores={is_snowing=1..}] positioned ~ ~0.8 ~ run tp @e[type=artifact:snowball_dummy,c=1] ^ ^ ^1
+execute as @a[scores={is_snowing=1}] run kill @e[type=artifact:snowball_dummy]
+execute as @a[scores={is_snowing=1}] run kill @e[type=artifact:target_dummy]
+scoreboard players remove @e[type=artifact:countdown,scores={snowing_cooldown=1..}] snowing_cooldown 1
+scoreboard players remove @e[scores={is_snowing=1..}] is_snowing 1
+
+execute as @e[type=artifact:countdown,scores={snowing_cooldown=0}] run replaceitem entity @a[hasitem={item=artifact:empty_cum_bucket,location=slot.weapon.mainhand}] slot.weapon.mainhand 0 destroy artifact:cum_bucket 1 0
