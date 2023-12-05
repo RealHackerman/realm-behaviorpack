@@ -1,0 +1,75 @@
+{
+    "format_version": "1.18.20",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "artifact:snowball_dummy",
+        "is_spawnable": false,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:type_family": {
+            "family": ["dummy", "snowball_dummy"]
+        },
+        "minecraft:collision_box": {
+          "width": 0.001,
+          "height": 0.001
+        },
+        "minecraft:movement": {
+          "value": 0.25
+        },
+        "minecraft:navigation.walk": {
+          "is_amphibious": true,
+          "avoid_sun": false,
+          "avoid_water": true
+        },
+        "minecraft:movement.basic": {
+        },
+        "minecraft:shooter": {
+          "def": "minecraft:snowball"
+        },
+        "minecraft:behavior.ranged_attack": {
+          "priority": 0,
+          "attack_interval": 0.05,
+          "attack_radius": 15.0
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 1,
+          "must_see": false,
+          "reselect_targets": true,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "target_dummy"
+              },
+              "max_dist": 16
+            }
+          ]
+        },
+        "minecraft:physics": { 
+            "has_gravity": false,
+            "has_collision": false
+        },
+        "minecraft:custom_hit_test": {
+            "hitboxes": [
+                {
+                    "pivot": [0, 100, 0],
+                    "width": 0,
+                    "height": 0
+                }
+            ]
+        },
+        "minecraft:damage_sensor": {
+            "triggers": {
+                "deals_damage": false
+            }
+        },
+        "minecraft:pushable": {
+            "is_pushable": false,
+            "is_pushable_by_piston": false
+        }
+      }
+    }
+  }

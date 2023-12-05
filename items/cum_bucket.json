@@ -1,0 +1,60 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifact:cum_bucket",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "artifact.cum_bucket"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:foil": true,
+            "minecraft:food":{
+                "can_always_eat": true,
+                "nutrition" : 1,
+                "using_converts_to": "artifact:empty_cum_bucket",
+                "saturation_modifier": "normal",
+                "on_consume": {
+					"event": "on_consume",
+					"target": "self"
+				}
+            },
+            "minecraft:use_duration": 1.61,
+            "minecraft:use_animation": "drink"
+        },
+        "events": {
+            "on_consume": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "scoreboard players set @e[type=artifact:countdown] snowing_cooldown 72000"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "command": ["scoreboard players set @s is_snowing 600"],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "command": ["summon artifact:snowball_dummy"],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "command": ["summon artifact:target_dummy"],
+                            "target": "holder"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
