@@ -12,6 +12,7 @@
         "minecraft:creative_category": {
             "parent": "itemGroup.name.sword"
         },
+        "minecraft:hover_text_color": "aqua",
         "minecraft:max_stack_size": 1,
         "minecraft:foil": true,
         "minecraft:weapon": {
@@ -29,8 +30,15 @@
         "knockback": {
             "sequence": [
                 {
+                    "shoot": {
+                        "projectile": "artifact:projectile_dummy",
+                        "launch_power": 1,
+                        "angle_offset": 0
+                    }
+                },
+                {
                     "run_command": {
-                        "command": ["scoreboard players set @s kb_time 32"],
+                        "command": ["scoreboard players set @s kb_time 5", "particle minecraft:huge_explosion_emitter"],
                         "target": "other"
                     }
                 }

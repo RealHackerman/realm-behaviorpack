@@ -11,23 +11,24 @@
         },
         "minecraft:max_stack_size": 1,
         "minecraft:foil": true,
+        "minecraft:hover_text_color": "aqua",
         "minecraft:on_use": {
             "on_use": {
                 "event": "throw",
-                "target": "self"
+                "target": "self",
+                "condition": "t.val = 0; q.is_item_name_any('slot.weapon.offhand', 0, 'minecraft:arrow') ? {return 1;}; t.i = 0; loop(27, {t.val = q.is_item_name_any('slot.inventory', t.i, 'minecraft:arrow'); t.val ? {return t.val;}; t.i = t.i+1;}); t.i = 0; loop(9, {t.val = q.is_item_name_any('slot.hotbar', t.i, 'minecraft:arrow'); t.val ? {return t.val;}; t.i = t.i+1;});"
             }
         }
     },
     "events": {
-        "throw": {
+        "throw": { 
             "shoot": {
                 "projectile": "minecraft:arrow",
-                "launch_power": 0.3,
+                "launch_power": 1.3,
                 "angle_offset": 0
             },
             "run_command": {
                 "command": [
-                    "execute @s[hasitem={item=minecraft:arrow,quantity=0}] ~ ~ ~ say @e[type=arrow,r=10]",
                     "clear @s arrow 0 1"
                 ]
             }

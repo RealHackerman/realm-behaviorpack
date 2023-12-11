@@ -1,7 +1,6 @@
 {
     "values": [
-        "do_kb",
         "artifact_effects",
         "update_npc"
     ]
-  }
+}

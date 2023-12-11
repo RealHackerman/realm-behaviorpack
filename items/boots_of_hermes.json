@@ -8,6 +8,7 @@
         "minecraft:icon": {
             "texture": "artifact.boots_of_hermes"
         },
+        "minecraft:hover_text_color": "aqua",
         "minecraft:armor": {
             "protection": 2,
             "texture_type" : "iron"

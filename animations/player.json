@@ -1,0 +1,12 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.player.poseidons_trident": {
+            "timeline": {
+                "0.0": ["/effect @s conduit_power 11 1 true"]
+            },
+            "animation_length": 0.05,
+            "loop": true
+        }
+    }
+}
