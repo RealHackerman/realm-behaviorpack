@@ -36,6 +36,9 @@
 			"minecraft:collision_box": {
 				"width": 0.001,
 				"height": 0.001
+			},
+			"minecraft:tick_world": {
+				"never_despawn": true
 			}
         }
     }

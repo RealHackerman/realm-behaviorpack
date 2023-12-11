@@ -9,6 +9,7 @@
             "minecraft:icon": {
                 "texture": "artifact.starvation_medallion"
             },
+            "minecraft:hover_text_color": "aqua",
             "minecraft:wearable": {
                 "dispensable" : true,
                 "slot": "slot.weapon.offhand"

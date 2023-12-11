@@ -12,30 +12,24 @@
         "minecraft:creative_category": {
             "parent": "itemGroup.name.sword"
         },
+        "minecraft:damage": 8,
+        "minecraft:hover_text_color": "aqua",
         "minecraft:max_stack_size": 1,
         "minecraft:foil": true,
-        "minecraft:throwable": {
-            "min_draw_duration": 2,
-            "max_draw_duration": 4,
-            "scale_power_by_draw_duration": true
-        },
-         "minecraft:projectile": {
-            "projectile_entity": "artifact:thrown_poseidons_trident",
-            "minimum_critical_power": 1.0
-        },
-        "on_use": {
-            "event": "throw"
+        "minecraft:use_duration": 0.8,
+        "minecraft:chargeable": {
+            "movement_modifier": 0.8,
+            "on_complete": {
+                "event": "use",
+                "condition": "query.is_in_water_or_rain"
+            }
         }
     },
     "events": {
-        "throw": {
-            "swing": {},
-            "decrement_stack": {},
+        "use": {
             "run_command": {
-                "command": [
-                    "playsound fire.ignite",
-                    "playsound mob.witch.throw"
-                ]
+                "command": ["scriptevent artifact:poseidons_trident_use"],
+                "target": "self"
             }
         }
     }
