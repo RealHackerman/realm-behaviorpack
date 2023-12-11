@@ -33,7 +33,7 @@ jobs:
         run: |
           version="$(grep -A1 -m 1 '"version"' manifest.json | grep -o "[0-9\]")"
           version="$(echo $version|tr ' ' '\.')"
-          gh release create "$version" "./realm-behaviorpack.mcpack" \
+          gh release create "v${version}" "./realm-behaviorpack.mcpack" \
               --repo="$GITHUB_REPOSITORY" \
               --title="Realm Behavior Pack v${version}" \
               --generate-notes
