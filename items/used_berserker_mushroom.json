@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifact:used_berserker_mushroom",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "artifact.used_berserker_mushroom"
+            },
+            "minecraft:hover_text_color": "aqua",
+            "minecraft:max_stack_size": 1,
+            "minecraft:foil": true
+        }
+    }
+}

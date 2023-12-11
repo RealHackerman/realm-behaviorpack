@@ -28,3 +28,8 @@ execute as @e[type=artifact:countdown,scores={snowing_cooldown=0}] run replaceit
 
 execute as @e[scores={kb_time=1..}] at @s run tp @e[type=artifact:projectile_dummy,c=1,r=20]
 execute as @e[scores={kb_time=1..}] run scoreboard players remove @s kb_time 1
+
+scoreboard players remove @e[type=artifact:countdown,scores={mushroom_cooldown=1..}] mushroom_cooldown 1
+execute as @e[type=artifact:countdown,scores={mushroom_cooldown=0}] run replaceitem entity @a[hasitem={item=artifact:used_berserker_mushroom,location=slot.weapon.mainhand}] slot.weapon.mainhand 0 destroy artifact:berserker_mushroom 1 0
+execute as @a[scores={is_powerful=1}] run effect @p nausea 60 2 true
+scoreboard players remove @e[scores={is_powerful=1..}] is_powerful 1

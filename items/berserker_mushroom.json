@@ -1,0 +1,53 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifact:berserker_mushroom",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "artifact.berserker_mushroom"
+            },
+            "minecraft:hover_text_color": "aqua",
+            "minecraft:max_stack_size": 1,
+            "minecraft:foil": true,
+            "minecraft:food":{
+                "can_always_eat": true,
+                "nutrition" : 1,
+                "using_converts_to": "artifact:used_berserker_mushroom",
+                "saturation_modifier": "normal",
+                "on_consume": {
+					"event": "on_consume",
+					"target": "self"
+				}
+            },
+            "minecraft:use_duration": 1.61,
+            "minecraft:use_animation": "eat"
+        },
+        "events": {
+            "on_consume": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "scoreboard players set @e[type=artifact:countdown] mushroom_cooldown 72000",
+                                "scoreboard players set @s is_powerful 1200"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "command": ["effect @s strength 60 3 true", 
+                            "effect @s haste 60 2 true",
+                            "effect @s resistance 60 2 true",
+                            "effect @s speed 60 4 true"],
+                            "target": "holder"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
