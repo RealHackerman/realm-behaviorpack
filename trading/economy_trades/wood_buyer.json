@@ -1,0 +1,158 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 8,
+                    "trades": [
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:acacia_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        },
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:birch_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        },
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:cherry_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        },
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:dark_oak_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        },
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:jungle_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        },
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:mangrove_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        },
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:oak_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        },
+                        {   
+                            "wants": [
+                                {
+                                    "item": "minecraft:spruce_log",
+                                    "quantity": 16,
+                                    "price_multiplier": 0
+                                }
+                            ],
+                            "gives": [
+                                {
+                                    "item": "minecraft:emerald",
+                                    "quantity": 1
+                                }
+                            ],
+                            "trader_exp": 0,
+                            "max_uses": 99999999,
+                            "reward_exp": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

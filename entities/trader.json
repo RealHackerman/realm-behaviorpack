@@ -1,0 +1,502 @@
+{
+    "format_version": "1.19.60",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "artifact:trader",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "baked_potato_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Stalin's Glorious Potatoes",
+                    "table": "trading/economy_trades/baked_potato_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "carrot_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Khalifa Carrot Co.",
+                    "table": "trading/economy_trades/carrot_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "diamond_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/diamond_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "gold_ingot_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/gold_ingot_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "hay_block_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Trader",
+                    "table": "trading/economy_trades/hay_block_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "iron_ingot_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/iron_ingot_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "lapis_lazuli_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/lapis_lazuli_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "melon_block_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Black's Farm Outlet",
+                    "table": "trading/economy_trades/melon_block_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "wood_buyer": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Trader",
+                    "table": "trading/economy_trades/wood_buyer.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 6
+                }
+            },
+            "gold_ingot_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/gold_ingot_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "iron_ingot_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/iron_ingot_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "lapis_lazuli_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/lapis_lazuli_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "empty_map_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Trader",
+                    "table": "trading/economy_trades/empty_map_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 6
+                }
+            },
+            "experience_bottle_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Wizard",
+                    "table": "trading/economy_trades/experience_bottle_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "golden_carrot_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Khalifa Carrot Co.",
+                    "table": "trading/economy_trades/golden_carrot_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 1
+                }
+            },
+            "diamond_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Ozsri Gems",
+                    "table": "trading/economy_trades/diamond_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 7
+                }
+            },
+            "mending_enchant_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Wizard",
+                    "table": "trading/economy_trades/mending_enchant_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 5
+                }
+            },
+            "unbreaking_enchant_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Wizard",
+                    "table": "trading/economy_trades/unbreaking_enchant_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 5
+                }
+            },
+            "netherite_upgrade_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Hacker",
+                    "table": "trading/economy_trades/netherite_upgrade_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 8
+                }
+            },
+            "netherite_scrap_seller": {
+                "minecraft:economy_trade_table": {
+                    "display_name": "Hacker",
+                    "table": "trading/economy_trades/netherite_scrap_seller.json",
+                    "new_screen": true,
+                    "cured_discount": [0,0],
+                    "hero_demand_discount": 0,
+                    "max_cured_discount": [0,0],
+                    "max_nearby_cured_discount": 0,
+                    "nearby_cured_discount": 0
+                },
+                "minecraft:variant": {
+                    "value": 8
+                }
+            }
+        },
+        "components": {
+            "minecraft:variant": {
+                "value": 0
+            },
+            "minecraft:mark_variant": {
+                "value": 3
+            },
+            "minecraft:skin_id": {
+                "value": 0
+            },
+            "minecraft:type_family": {
+                "family": [
+                    "trader"
+                ]
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:collision_box": {
+                "width": 0.6,
+                "height": 1.9
+            },
+            "minecraft:movement": {
+                "value": 0.5
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:persistent": {},
+            "minecraft:behavior.trade_with_player": {
+                "priority": 0
+            },
+            "minecraft:behavior.look_at_trading_player": {
+                "priority": 1
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 2,
+                "look_distance": 8,
+                "probability": 1
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "deals_damage": false
+                }
+            }
+        },
+        "events": {
+            "artifact:become_baked_potato_buyer": {
+                "add": {
+                    "component_groups": [
+                      "baked_potato_buyer"
+                    ]
+                }
+            },
+            "artifact:become_carrot_buyer": {
+                "add": {
+                    "component_groups": [
+                      "carrot_buyer"
+                    ]
+                }
+            },
+            "artifact:become_diamond_buyer": {
+                "add": {
+                    "component_groups": [
+                      "diamond_buyer"
+                    ]
+                }
+            },
+            "artifact:become_gold_ingot_buyer": {
+                "add": {
+                    "component_groups": [
+                      "gold_ingot_buyer"
+                    ]
+                }
+            },
+            "artifact:become_hay_block_buyer": {
+                "add": {
+                    "component_groups": [
+                      "hay_block_buyer"
+                    ]
+                }
+            },
+            "artifact:become_iron_ingot_buyer": {
+                "add": {
+                    "component_groups": [
+                      "iron_ingot_buyer"
+                    ]
+                }
+            },
+            "artifact:become_lapis_lazuli_buyer": {
+                "add": {
+                    "component_groups": [
+                      "lapis_lazuli_buyer"
+                    ]
+                }
+            },
+            "artifact:become_melon_block_buyer": {
+                "add": {
+                    "component_groups": [
+                      "melon_block_buyer"
+                    ]
+                }
+            },
+            "artifact:become_wood_buyer": {
+                "add": {
+                    "component_groups": [
+                      "wood_buyer"
+                    ]
+                }
+            },
+            "artifact:become_gold_ingot_seller": {
+                "add": {
+                    "component_groups": [
+                      "gold_ingot_seller"
+                    ]
+                }
+            },
+            "artifact:become_iron_ingot_seller": {
+                "add": {
+                    "component_groups": [
+                      "iron_ingot_seller"
+                    ]
+                }
+            },
+            "artifact:become_lapis_lazuli_seller": {
+                "add": {
+                    "component_groups": [
+                      "lapis_lazuli_seller"
+                    ]
+                }
+            },
+            "artifact:become_empty_map_seller": {
+                "add": {
+                    "component_groups": [
+                      "empty_map_seller"
+                    ]
+                }
+            },
+            "artifact:become_experience_bottle_seller": {
+                "add": {
+                    "component_groups": [
+                      "experience_bottle_seller"
+                    ]
+                }
+            },
+            "artifact:become_golden_carrot_seller": {
+                "add": {
+                    "component_groups": [
+                      "golden_carrot_seller"
+                    ]
+                }
+            },
+            "artifact:become_diamond_seller": {
+                "add": {
+                    "component_groups": [
+                      "diamond_seller"
+                    ]
+                }
+            },
+            "artifact:become_mending_enchant_seller": {
+                "add": {
+                    "component_groups": [
+                      "mending_enchant_seller"
+                    ]
+                }
+            },
+            "artifact:become_unbreaking_enchant_seller": {
+                "add": {
+                    "component_groups": [
+                      "unbreaking_enchant_seller"
+                    ]
+                }
+            },
+            "artifact:become_netherite_upgrade_seller": {
+                "add": {
+                    "component_groups": [
+                      "netherite_upgrade_seller"
+                    ]
+                }
+            },
+            "artifact:become_netherite_scrap_seller": {
+                "add": {
+                    "component_groups": [
+                      "netherite_scrap_seller"
+                    ]
+                }
+            }
+        }
+    }
+}

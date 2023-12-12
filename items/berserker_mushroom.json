@@ -31,7 +31,7 @@
                     {
                         "run_command": {
                             "command": [
-                                "scoreboard players set @e[type=artifact:countdown] mushroom_cooldown 72000",
+                                "scoreboard players set @e[type=artifact:countdown] mushroom_cooldown 12000",
                                 "scoreboard players set @s is_powerful 1200"
                             ],
                             "target": "holder"
