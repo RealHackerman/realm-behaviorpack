@@ -39,6 +39,8 @@
 			},
 			"minecraft:tick_world": {
 				"never_despawn": true
+			},
+			"minecraft:persistent": {
 			}
         }
     }
