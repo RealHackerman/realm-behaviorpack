@@ -24,7 +24,8 @@
                     "event": "knockback",
                     "target": "self"
                 }
-            }
+            },
+            "minecraft:should_despawn": false
         },
         "events": {
             "knockback": {

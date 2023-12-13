@@ -15,7 +15,8 @@
                 "slot": "slot.weapon.offhand"
             },
             "minecraft:max_stack_size": 1,
-            "minecraft:foil": true
+            "minecraft:foil": true,
+            "minecraft:should_despawn": false
         }
     }
 }

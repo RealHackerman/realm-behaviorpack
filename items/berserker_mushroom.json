@@ -23,7 +23,8 @@
 				}
             },
             "minecraft:use_duration": 1.61,
-            "minecraft:use_animation": "eat"
+            "minecraft:use_animation": "eat",
+            "minecraft:should_despawn": false            
         },
         "events": {
             "on_consume": {
