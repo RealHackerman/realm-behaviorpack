@@ -44,7 +44,7 @@
                 "subject": "other",
                 "value": "target_dummy"
               },
-              "max_dist": 16
+              "max_dist": 4
             }
           ]
         },

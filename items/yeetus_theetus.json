@@ -9,6 +9,7 @@
         "minecraft:icon": {
             "texture": "artifact.yeetus_theetus"
         },
+        "minecraft:should_despawn": false,
         "minecraft:creative_category": {
             "parent": "itemGroup.name.sword"
         },
@@ -30,15 +31,14 @@
         "knockback": {
             "sequence": [
                 {
-                    "shoot": {
-                        "projectile": "artifact:projectile_dummy",
-                        "launch_power": 1,
-                        "angle_offset": 0
+                    "run_command": {
+                        "command": ["scoreboard players set @s kb_time 5"],
+                        "target": "self"
                     }
                 },
                 {
                     "run_command": {
-                        "command": ["scoreboard players set @s kb_time 5", "particle minecraft:huge_explosion_emitter"],
+                        "command": ["scriptevent artifact:yeetus_theetus_use", "particle minecraft:huge_explosion_emitter"],
                         "target": "other"
                     }
                 }
