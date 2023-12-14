@@ -7,3 +7,5 @@ scoreboard objectives add mushroom_cooldown dummy
 scoreboard objectives add snowing_cooldown dummy
 scoreboard objectives add sniper_charge dummy
 scoreboard objectives add tablet_cooldown dummy
+scoreboard objectives add steed_cooldown dummy
+scoreboard players set @e[type=artifact:countdown] steed_cooldown 0

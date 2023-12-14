@@ -39,3 +39,5 @@ execute as @e[family=sniper_arrow,tag=!valid_sniper_arrow] run give @p arrow
 execute as @e[family=sniper_arrow,tag=!valid_sniper_arrow] run kill @s
 
 scoreboard players remove @e[type=artifact:countdown,scores={tablet_cooldown=1..}] tablet_cooldown 1
+
+scoreboard players remove @e[type=artifact:countdown,scores={steed_cooldown=1..}] steed_cooldown 1
