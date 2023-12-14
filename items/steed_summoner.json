@@ -1,0 +1,34 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifact:steed_summoner",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "artifact.steed_summoner"
+            },
+            "minecraft:hover_text_color": "aqua",
+            "minecraft:max_stack_size": 1,
+            "minecraft:foil": true,
+            "minecraft:should_despawn": false,
+            "minecraft:use_duration": 0.5,
+            "minecraft:on_use":{
+                "on_use":{
+                    "event":"artifact:on_use"
+                }
+            }
+        },
+        "events":{
+            "artifact:on_use":{
+                "run_command": {
+                    "command": [
+                        "scriptevent artifact:steed_summoner_use"
+                    ],
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

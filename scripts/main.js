@@ -41,6 +41,22 @@ system.afterEvents.scriptEventReceive.subscribe(event => {
     });
     return;
   }
+  if (event.id==="artifact:steed_summoner_use") {
+    system.run(() => {
+      const player = event.sourceEntity;
+      let cooldown = world.scoreboard.getObjective("steed_cooldown").getScores()[0].score;
+      if (cooldown && cooldown > 0) {
+        let cooldownSeconds = Math.floor(cooldown/20);
+        let cooldownMinutes = Math.floor(cooldownSeconds/60);
+        let cooldownMsg = cooldownMinutes ? cooldownMinutes + "m " + cooldownSeconds % 60 + "s" : cooldownSeconds + "s";
+        player.sendMessage("Item on cooldown for another " + cooldownMsg);
+        return;
+      }
+      player.runCommand("scoreboard players set @e[type=artifact:countdown] steed_cooldown 9600");
+      player.runCommand("summon minecraft:horse ~ ~ ~ ~ ~ artifact:become_steed");
+    });
+    return;
+  }
 });
 
 world.afterEvents.itemReleaseUse.subscribe(event => {
