@@ -1,0 +1,45 @@
+{
+    "format_version": "1.18.20",
+    "minecraft:entity":{
+        "description":{
+            "identifier":"artifact:pretamed_wolf",
+            "runtime_identifier":"minecraft:arrow",
+            "is_spawnable":false,
+            "is_summonable":true,
+            "is_experimental":false
+        },
+        "component_groups":{
+            "artifact:transform_to_entity":{
+                "minecraft:transformation":{
+                    "into":"minecraft:wolf<artifact:become_white_wolf>",
+                    "keep_owner":true
+                }
+            }
+        },
+        "components":{
+            "minecraft:projectile":{
+                "knockback": false,
+                "on_hit":{
+                    "impact_damage":{
+                        "damage":0
+                    },
+                    "stick_in_ground":{},
+                    "definition_event":{
+                        "event_trigger":{
+                            "event":"artifact:on_hit"
+                        }
+                    }
+                }
+            }
+        },
+        "events":{
+            "artifact:on_hit":{
+                "add":{
+                    "component_groups":[
+                        "artifact:transform_to_entity"
+                    ]
+                }
+            }
+        }
+    }
+}

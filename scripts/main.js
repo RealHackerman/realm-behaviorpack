@@ -51,3 +51,16 @@ world.afterEvents.itemReleaseUse.subscribe(event => {
     });
   }
 });
+
+world.beforeEvents.itemUse.subscribe(event => {
+  if (event.itemStack.typeId==="artifact:elven_tablet") {
+    let cooldown = world.scoreboard.getObjective("tablet_cooldown").getScores()[0].score;
+    if (cooldown && cooldown > 0) {
+      let cooldownSeconds = Math.floor(cooldown/20);
+      let cooldownMinutes = Math.floor(cooldownSeconds/60);
+      let cooldownMsg = cooldownMinutes ? cooldownMinutes + "m " + cooldownSeconds % 60 + "s" : cooldownSeconds + "s";
+      event.source.sendMessage("Item on cooldown for another " + cooldownMsg);
+      event.cancel = true;
+    }
+  }
+});

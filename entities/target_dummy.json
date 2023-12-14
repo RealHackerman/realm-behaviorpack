@@ -27,6 +27,7 @@
 					}
 				]
 			},
+			"minecraft:instant_despawn":{},
 			"minecraft:damage_sensor": {
 				"triggers": {
 					"deals_damage": false

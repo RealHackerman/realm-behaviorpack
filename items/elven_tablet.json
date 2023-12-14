@@ -1,0 +1,54 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "artifact:elven_tablet",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "artifact.elven_tablet"
+            },
+            "minecraft:hover_text_color": "aqua",
+            "minecraft:max_stack_size": 1,
+            "minecraft:foil": true,
+            "minecraft:should_despawn": false,
+            "minecraft:use_duration": 0.5,
+            "minecraft:on_use":{
+                "on_use":{
+                    "event":"artifact:on_use"
+                }
+            }
+        },
+        "events":{
+            "artifact:on_use":{
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": ["scoreboard players set @e[type=artifact:countdown] tablet_cooldown 36000"],
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "shoot":{
+                            "projectile":"artifact:pretamed_wolf",
+                            "launch_power": 0.0
+                        }
+                    },
+                    {
+                        "shoot":{
+                            "projectile":"artifact:pretamed_wolf",
+                            "launch_power": 0.0
+                        }
+                    },
+                    {
+                        "shoot":{
+                            "projectile":"artifact:pretamed_wolf",
+                            "launch_power": 0.0
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

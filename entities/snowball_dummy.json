@@ -25,6 +25,7 @@
         },
         "minecraft:movement.basic": {
         },
+        "minecraft:instant_despawn":{},
         "minecraft:shooter": {
           "def": "minecraft:snowball"
         },

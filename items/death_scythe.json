@@ -2,44 +2,45 @@
     "format_version": "1.16.100",
     "minecraft:item": {
       "description": {
-        "identifier": "artifact:yeetus_theetus",
+        "identifier": "artifact:death_scythe",
         "category": "equipment"
       },
       "components": {
         "minecraft:icon": {
-            "texture": "artifact.yeetus_theetus"
+            "texture": "artifact.death_scythe"
         },
-        "minecraft:should_despawn": false,
         "minecraft:creative_category": {
             "parent": "itemGroup.name.sword"
         },
+        "minecraft:damage": 7,
         "minecraft:hover_text_color": "aqua",
         "minecraft:max_stack_size": 1,
         "minecraft:foil": true,
         "minecraft:weapon": {
             "on_hurt_entity" : {
-                "event": "knockback",
+                "event": "hit",
                 "target": "self"
             },
             "on_not_hurt_entity": {
-                "event": "knockback",
+                "event": "hit",
                 "target": "self"
             }
-        }
+        },
+        "minecraft:should_despawn": false
     },
     "events": {
-        "knockback": {
+        "hit": {
             "sequence": [
                 {
                     "run_command": {
-                        "command": ["scoreboard players set @s kb_time 5"],
-                        "target": "self"
+                        "command": ["damage @s 1 entity_attack"],
+                        "target": "other"
                     }
                 },
                 {
                     "run_command": {
-                        "command": ["scriptevent artifact:yeetus_theetus_use", "particle minecraft:huge_explosion_emitter"],
-                        "target": "other"
+                        "command": ["effect @p regeneration 1 3 true"],
+                        "target": "self"
                     }
                 }
             ]
