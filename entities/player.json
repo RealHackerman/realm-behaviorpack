@@ -244,10 +244,14 @@
           },
           {
             "filters": {
-              "any_of": [
+              "all_of": [
                 {
                   "test": "has_mob_effect",
                   "value": "nausea"
+                },
+                {
+                  "test": "has_tag",
+                  "value": "is_debuffed"
                 }
               ]
             },
@@ -259,6 +263,11 @@
                 {
                   "test": "has_mob_effect",
                   "value": "nausea",
+                  "operator": "not"
+                },
+                {
+                  "test": "has_tag",
+                  "value": "is_debuffed",
                   "operator": "not"
                 }
               ]

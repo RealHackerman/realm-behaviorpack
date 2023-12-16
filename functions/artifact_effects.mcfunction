@@ -30,7 +30,8 @@ execute as @e[scores={kb_time=1..}] run scoreboard players remove @s kb_time 1
 
 scoreboard players remove @e[type=artifact:countdown,scores={mushroom_cooldown=1..}] mushroom_cooldown 1
 execute as @e[type=artifact:countdown,scores={mushroom_cooldown=0}] run replaceitem entity @a[hasitem={item=artifact:used_berserker_mushroom,location=slot.weapon.mainhand}] slot.weapon.mainhand 0 destroy artifact:berserker_mushroom 1 0
-execute as @a[scores={is_powerful=1}] run effect @p nausea 60 2 true
+execute as @a[scores={is_powerful=1}] run effect @s nausea 60 2 true
+execute as @a[scores={is_powerful=1}] run tag @s add is_debuffed
 scoreboard players remove @e[scores={is_powerful=1..}] is_powerful 1
 
 scoreboard players add @a[scores={sniper_charge=1..}] sniper_charge 1

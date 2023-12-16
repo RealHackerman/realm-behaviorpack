@@ -80,3 +80,12 @@ world.beforeEvents.itemUse.subscribe(event => {
     }
   }
 });
+
+system.runInterval(() => {
+  let players = world.getPlayers();
+  for (let i=0; i<players.length; i++) {
+    if (players[i].getComponent("minecraft:health").defaultValue !== 10) {
+      players[i].removeTag("is_debuffed");
+    }
+  }
+}, 40);
