@@ -1,0 +1,51 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "artifact:cursed_scythe",
+        "category": "equipment"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "artifact.cursed_scythe"
+        },
+        "minecraft:creative_category": {
+            "parent": "itemGroup.name.sword"
+        },
+        "minecraft:damage": 11,
+        "minecraft:hover_text_color": "dark_red",
+        "minecraft:max_stack_size": 1,
+        "minecraft:foil": true,
+        "minecraft:weapon": {
+            "on_hurt_entity" : {
+                "event": "hit",
+                "target": "self"
+            },
+            "on_not_hurt_entity": {
+                "event": "hit",
+                "target": "self"
+            }
+        },
+        "minecraft:should_despawn": false
+    },
+    "events": {
+        "hit": {
+            "sequence": [
+                {
+                    "run_command": {
+                        "command": ["effect @s slowness 1 2"],
+                        "target": "other"
+                    }
+                },
+                {
+                    "run_command": {
+                        "command": ["effect @s weakness 1 1"],
+                        "target": "other"
+                    }
+                }
+                
+            ]
+        }
+    }
+  }
+}
