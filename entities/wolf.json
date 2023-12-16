@@ -208,24 +208,24 @@
             },
             "artifact:white_wolf": {
                 "minecraft:health": {
-                    "value": 20,
-                    "max": 20
+                    "value": 60,
+                    "max": 60
                 },
                 "minecraft:attack": {
-                    "damage": 6
+                    "damage": 10
                 },
                 "minecraft:spell_effects": {
                     "add_effects": [
                         {
                             "effect": "regeneration",
                             "duration": 1000000000,
-                            "amplifier": 1,
+                            "amplifier": 3,
                             "visible": false
                         },
                         {
                             "effect": "resistance",
                             "duration": 1000000000,
-                            "amplifier": 1,
+                            "amplifier": 2,
                             "visible": false
                         }
                     ]
