@@ -25,7 +25,8 @@
                 "event": "knockback",
                 "target": "self"
             }
-        }
+        },
+        "minecraft:hand_equipped": true
     },
     "events": {
         "knockback": {
