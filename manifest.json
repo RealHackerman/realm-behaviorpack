@@ -10,6 +10,7 @@
     "modules": [
         {
             "description": "Behavior Pack Data",
+            "description": "Behavior Pack Data",
             "type": "data",
             "uuid": "5ed2c367-94cf-4753-8db6-09b31bbc472f",
             "version": [1, 0, 1]
