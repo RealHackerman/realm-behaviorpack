@@ -6,6 +6,7 @@
         "uuid": "55f61f69-236d-4d73-b6d7-438f9373685e",
         "min_engine_version": [1, 19, 83],
         "version": [1, 0, 1]
+
     },
     "modules": [
         {
@@ -13,6 +14,7 @@
             "type": "data",
             "uuid": "5ed2c367-94cf-4753-8db6-09b31bbc472f",
             "version": [1, 0, 1]
+
         },
         {
             "type": "script",
