@@ -33,7 +33,7 @@
             "sequence": [
                 {
                     "run_command": {
-                        "command": ["effect @s wither 3 1"],
+                        "command": ["effect @s wither 3 1 true"],
                         "target": "other"
                     }
                 }

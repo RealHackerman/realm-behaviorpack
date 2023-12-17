@@ -46,14 +46,22 @@ scoreboard players remove @e[type=artifact:countdown,scores={steed_cooldown=1..}
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:monkey_medallion}] jump_boost 1 1 true
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:monkey_medallion}] speed 1 1 true
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:monkey_medallion}] resistance 1 1 true
+effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:monkey_medallion}] jump_boost 1 1 true
+effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:monkey_medallion}] speed 1 1 true
+effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:monkey_medallion}] resistance 1 1 true
 
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:vitality_medallion}] health_boost 1 1 true
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:vitality_medallion}] regeneration 1 1 true
+effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:vitality_medallion}] health_boost 1 1 true
+effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:vitality_medallion}] regeneration 1 1 true
 
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:oasis_medallion}] saturation 1 1 true
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:oasis_medallion}] haste 1 1 true
+effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:oasis_medallion}] saturation 1 1 true
+effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:oasis_medallion}] haste 1 1 true
 
 effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:berserker_axe}] strength 1 1 true
 effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:berserker_axe}] speed 1 1 true
 
 execute at @a[hasitem={location=slot.weapon.offhand, item=artifact:dragon_heart}] run effect @a[rm=1,r=10] weakness 1 1 true
+execute at @a[hasitem={location=slot.weapon.mainhand, item=artifact:dragon_heart}] run effect @a[rm=1,r=10] weakness 1 1 true

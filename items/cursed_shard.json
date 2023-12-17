@@ -33,25 +33,25 @@
             "sequence": [
                 {
                     "run_command": {
-                        "command": ["effect @s poison 5 1"],
+                        "command": ["effect @s poison 5 1 true"],
                         "target": "other"
                     }
                 },
                 {
                     "run_command": {
-                        "command": ["effect @s wither 5 1"],
+                        "command": ["effect @s wither 5 1 true"],
                         "target": "other"
                     }
                 },
                 {
                     "run_command": {
-                        "command": ["effect @s darkness 5 1"],
+                        "command": ["effect @s darkness 5 1 true"],
                         "target": "other"
                     }
                 },
                 {
                     "run_command": {
-                        "command": ["effect @s nausea 5 1"],
+                        "command": ["effect @s nausea 5 1 true"],
                         "target": "other"
                     }
                 },
