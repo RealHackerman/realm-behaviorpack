@@ -26,7 +26,8 @@
                 "target": "self"
             }
         },
-        "minecraft:should_despawn": false
+        "minecraft:should_despawn": false,
+        "minecraft:hand_equipped": true
     },
     "events": {
         "hit": {
