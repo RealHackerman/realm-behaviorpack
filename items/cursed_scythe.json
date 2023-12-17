@@ -33,13 +33,13 @@
             "sequence": [
                 {
                     "run_command": {
-                        "command": ["effect @s slowness 1 2"],
+                        "command": ["effect @s slowness 1 2 true"],
                         "target": "other"
                     }
                 },
                 {
                     "run_command": {
-                        "command": ["effect @s weakness 1 1"],
+                        "command": ["effect @s weakness 1 1 true"],
                         "target": "other"
                     }
                 }
