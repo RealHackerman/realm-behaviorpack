@@ -307,6 +307,23 @@
                 "minecraft:variant": {
                     "value": 8
                 }
+            },
+            "mobile": {
+                "minecraft:navigation.walk": {
+                    "can_path_over_water": false,
+                    "can_pass_doors": false,
+                    "can_open_doors": false,
+                    "avoid_water": true
+                },
+                "minecraft:behavior.random_stroll": {
+                    "priority": 3,
+                    "speed_multiplier": 0.6
+                },
+                "minecraft:behavior.look_at_player": {
+                    "priority": 2,
+                    "look_distance": 8,
+                    "probability": 0.02
+                }
             }
         },
         "components": {
@@ -494,6 +511,13 @@
                 "add": {
                     "component_groups": [
                       "netherite_scrap_seller"
+                    ]
+                }
+            },
+            "artifact:become_mobile": {
+                "add": {
+                    "component_groups": [
+                      "mobile"
                     ]
                 }
             }

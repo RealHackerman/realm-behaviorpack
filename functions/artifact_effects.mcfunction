@@ -35,9 +35,7 @@ execute as @a[scores={is_powerful=1}] run tag @s add is_debuffed
 scoreboard players remove @e[scores={is_powerful=1..}] is_powerful 1
 
 scoreboard players add @a[scores={sniper_charge=1..}] sniper_charge 1
-execute as @a[scores={sniper_charge=40..}] run tag @e[family=sniper_arrow] add valid_sniper_arrow
-execute as @e[family=sniper_arrow,tag=!valid_sniper_arrow] run give @p arrow
-execute as @e[family=sniper_arrow,tag=!valid_sniper_arrow] run kill @s
+tag @a[scores={sniper_charge=40..}] add valid_sniper
 
 scoreboard players remove @e[type=artifact:countdown,scores={tablet_cooldown=1..}] tablet_cooldown 1
 

@@ -64,6 +64,7 @@ world.afterEvents.itemReleaseUse.subscribe(event => {
     const player = event.source;
     system.run(() => {
       player.runCommand("scoreboard players set @s sniper_charge 0");
+      player.removeTag("valid_sniper")
     });
   }
 });

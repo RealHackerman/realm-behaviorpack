@@ -41,6 +41,40 @@
           }
         },
 
+        "artifact:dead_arrow": {
+          "minecraft:projectile": {
+            "on_hit": {
+              "impact_damage": {
+                "damage": [0,0],
+                "knockback": false,
+                "semi_random_diff_damage": false,
+                "destroy_on_hit": true,
+                "power_multiplier": 0
+              },
+              "stick_in_ground": {
+                "shake_time" : 0.35
+              },
+              "arrow_effect": {
+              }
+            },
+            "hit_sound": "bow.hit",
+            "power": 0.0,
+            "gravity": 0.00,
+            "uncertainty_base": 1,
+            "uncertainty_multiplier": 0,
+            "anchor": 1,
+            "should_bounce": true,
+            "offset": [ 0, 0, 0 ],
+            "inertia": 1,
+            "liquid_intertia": 0.8,
+            "crit_particle_on_hurt": true
+          },
+          "minecraft:type_family": {
+            "family": ["sniper_arrow"]
+          },
+          "minecraft:instant_despawn": {}
+        },
+
         "minecraft:hard_arrow": {
           "minecraft:projectile": {
             "on_hit": {
@@ -197,9 +231,44 @@
               }
             },
             {
-              "filters": {"test": "has_equipment", "subject": "other", "domain": "hand", "value": "artifact:sniper"},
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_equipment", 
+                    "subject": "other", 
+                    "domain": "hand", 
+                    "value": "artifact:sniper"
+                  },
+                  {
+                    "test": "has_tag",
+                    "subject": "other",
+                    "value": "valid_sniper"
+                  }
+                ]
+              },
               "add": {
                 "component_groups": [ "artifact:sniper_arrow" ]
+              }
+            },
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_equipment", 
+                    "subject": "other", 
+                    "domain": "hand", 
+                    "value": "artifact:sniper"
+                  },
+                  {
+                    "test": "has_tag",
+                    "value": "valid_sniper",
+                    "subject": "other",
+                    "operator": "not"
+                  }
+                ]
+              },
+              "add": {
+                "component_groups": [ "artifact:dead_arrow" ]
               }
             }
           ]
