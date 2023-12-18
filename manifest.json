@@ -2,24 +2,24 @@
     "format_version": 2,
     "header": {
         "name": "Realm Custom Behavior Pack",
-        "description": "A custom behavior pack adding trading, artifacts, custom entities, and more! (v1.0.2)",
+        "description": "A custom behavior pack adding trading, artifacts, custom entities, and more! (v1.0.3)",
         "uuid": "55f61f69-236d-4d73-b6d7-438f9373685e",
         "min_engine_version": [1, 19, 83],
-        "version": [1, 0, 2]
+        "version": [1, 0, 3]
     },
     "modules": [
         {
             "description": "Behavior Pack Data",
             "type": "data",
             "uuid": "5ed2c367-94cf-4753-8db6-09b31bbc472f",
-            "version": [1, 0, 2]
+            "version": [1, 0, 3]
         },
         {
             "type": "script",
             "language": "javascript",
             "uuid": "282005fe-4bde-4240-9447-1a0e8a3b0a00",
             "entry": "scripts/main.js",
-            "version": [1, 0, 2]
+            "version": [1, 0, 3]
           }
     ],
     "dependencies": [
