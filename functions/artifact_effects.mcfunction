@@ -63,7 +63,7 @@ execute at @a[hasitem={location=slot.weapon.offhand, item=artifact:dragon_heart}
 execute at @a[hasitem={location=slot.weapon.mainhand, item=artifact:dragon_heart}] run effect @a[rm=1,r=10] weakness 1 1 true
 
 tag @a[hasitem={location=slot.armor.chest, item=artifact:hells_chestplate}] add fire_thorns
-tag @a[hasitem={location=slot.armor.chest, item=artifact:hells_chestplate, quantity=0}] add fire_thorns
+tag @a[hasitem={location=slot.armor.chest, item=artifact:hells_chestplate, quantity=0}] remove fire_thorns
 
 effect @a[hasitem={location=slot.armor.legs, item=artifact:slime_leggings}] jump_boost 1 4 true
 
