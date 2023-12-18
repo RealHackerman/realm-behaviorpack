@@ -8,6 +8,34 @@
         "is_experimental": false
       },
       "component_groups": {
+        "artifact:flame_arrow": {
+          "minecraft:projectile": {
+            "on_hit": {
+              "impact_damage": {
+                "damage": 2,
+                "knockback": false,
+                "semi_random_diff_damage": false,
+                "destroy_on_hit": true,
+                "max_critical_damage": 2,
+                "min_critical_damage": 2,
+                "power_multiplier": 0.97
+              },
+              "stick_in_ground": {
+                "shake_time" : 0.35
+              },
+              "arrow_effect": {
+              }
+            },
+            "catch_fire": true,
+            "power": 5.0,
+            "gravity": 0.05,
+            "uncertainty_base": 1,
+            "uncertainty_multiplier": 0,
+            "anchor": 1,
+            "should_bounce": true,
+            "offset": [ 0, -0.1, 0 ]
+          }
+        },
         "artifact:sniper_arrow": {
           "minecraft:projectile": {
             "on_hit": {
@@ -272,6 +300,11 @@
               }
             }
           ]
+        },
+        "artifact:become_flame_arrow": {
+          "add": {
+            "component_groups": [ "artifact:flame_arrow" ]
+          }
         }
       }
   

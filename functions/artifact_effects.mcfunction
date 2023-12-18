@@ -14,8 +14,8 @@ execute at @e[scores={is_frozen=1..}] run particle minecraft:blue_flame_particle
 execute at @e[scores={is_frozen=1..}] run particle minecraft:blue_flame_particle ~ ~1 ~-0.75
 scoreboard players remove @e[scores={is_frozen=1..}] is_frozen 1
 
-execute at @a[hasitem={location=slot.weapon.mainhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 1 1 true
-execute at @a[hasitem={location=slot.weapon.offhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 1 1 true
+execute at @a[hasitem={location=slot.weapon.mainhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 3 5 true
+execute at @a[hasitem={location=slot.weapon.offhand, item=artifact:starvation_medallion}] run effect @a[rm=1,r=10] hunger 3 5 true
 
 execute at @e[scores={is_snowing=1..}] positioned ~ ~0.8 ~ run tp @e[type=artifact:target_dummy,c=1] ^ ^ ^2
 execute at @e[scores={is_snowing=1..}] positioned ~ ~0.8 ~ run tp @e[type=artifact:snowball_dummy,c=1] ^ ^ ^1
@@ -49,9 +49,7 @@ effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:monkey_medallion
 effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:monkey_medallion}] resistance 1 1 true
 
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:vitality_medallion}] health_boost 1 1 true
-effect @a[hasitem={location=slot.weapon.offhand, item=artifact:vitality_medallion}] regeneration 1 1 true
 effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:vitality_medallion}] health_boost 1 1 true
-effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:vitality_medallion}] regeneration 1 1 true
 
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:oasis_medallion}] saturation 1 1 true
 effect @a[hasitem={location=slot.weapon.offhand, item=artifact:oasis_medallion}] haste 1 1 true
@@ -63,3 +61,10 @@ effect @a[hasitem={location=slot.weapon.mainhand, item=artifact:berserker_axe}] 
 
 execute at @a[hasitem={location=slot.weapon.offhand, item=artifact:dragon_heart}] run effect @a[rm=1,r=10] weakness 1 1 true
 execute at @a[hasitem={location=slot.weapon.mainhand, item=artifact:dragon_heart}] run effect @a[rm=1,r=10] weakness 1 1 true
+
+tag @a[hasitem={location=slot.armor.chest, item=artifact:hells_chestplate}] add fire_thorns
+tag @a[hasitem={location=slot.armor.chest, item=artifact:hells_chestplate, quantity=0}] add fire_thorns
+
+effect @a[hasitem={location=slot.armor.legs, item=artifact:slime_leggings}] jump_boost 1 4 true
+
+effect @a[hasitem={location=slot.armor.head, item=artifact:night_vision_goggles}] night_vision 11 1 true

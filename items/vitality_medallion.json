@@ -7,7 +7,7 @@
         },
         "components": {
             "minecraft:icon": {
-                "texture": "artifact.starvation_medallion"
+                "texture": "artifact.vitality_medallion"
             },
             "minecraft:hover_text_color": "aqua",
             "minecraft:wearable": {

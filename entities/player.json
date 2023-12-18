@@ -18,6 +18,14 @@
       }
     },
     "component_groups": {
+      "artifact:fall_immune": {
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        }
+      },
       "minecraft:add_bad_omen": {
         "minecraft:spell_effects": {
           "add_effects": [
@@ -273,6 +281,31 @@
               ]
             },
             "event": "artifact:remove_debuff"
+          },
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "domain": "leg",
+                  "value": "artifact:slime_leggings"
+                }
+              ]
+            },
+            "event": "artifact:add_fall_immune"
+          },
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "has_equipment",
+                  "domain": "leg",
+                  "value": "artifact:slime_leggings",
+                  "operator": "not"
+                }
+              ]
+            },
+            "event": "artifact:remove_fall_immune"
           }
         ]
       }
@@ -356,6 +389,20 @@
         "remove": {
           "component_groups": [
             "artifact:debuff"
+          ]
+        }
+      },
+      "artifact:add_fall_immune": {
+        "add": {
+          "component_groups": [
+            "artifact:fall_immune"
+          ]
+        }
+      },
+      "artifact:remove_fall_immune": {
+        "remove": {
+          "component_groups": [
+            "artifact:fall_immune"
           ]
         }
       }

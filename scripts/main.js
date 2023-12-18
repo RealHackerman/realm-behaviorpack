@@ -82,6 +82,13 @@ world.beforeEvents.itemUse.subscribe(event => {
   }
 });
 
+world.afterEvents.entityHitEntity.subscribe(event => {
+  let hitEntity = event.hitEntity;
+  if (hitEntity.hasTag("fire_thorns")) {
+    event.damagingEntity.runCommand("summon arrow ~ ~0.1 ~ ~ ~ artifact:become_flame_arrow");
+  }
+});
+
 system.runInterval(() => {
   let players = world.getPlayers();
   for (let i=0; i<players.length; i++) {
