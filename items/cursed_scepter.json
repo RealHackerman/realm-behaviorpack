@@ -34,13 +34,13 @@
             "sequence": [
                 {
                     "run_command": {
-                        "command": ["effect @s blindness 1 1 true"],
+                        "command": ["effect @s blindness 3 1 true"],
                         "target": "other"
                     }
                 },
                 {
                     "run_command": {
-                        "command": ["effect @s nausea 1 1 true"],
+                        "command": ["effect @s nausea 3 1 true"],
                         "target": "other"
                     }
                 }

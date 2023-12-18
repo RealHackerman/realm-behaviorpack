@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+      "description": {
+        "identifier": "artifact:night_vision_goggles"
+      },
+      "components": {
+        "minecraft:icon": {
+            "texture": "artifact.night_vision_goggles"
+        },
+        "minecraft:hover_text_color": "aqua",
+        "minecraft:armor": {
+            "protection": 3,
+            "texture_type" : "netherite"
+        },
+        "minecraft:wearable": {
+            "dispensable" : true,
+            "slot": "slot.armor.head"
+        },
+        "minecraft:max_stack_size": 1,
+        "minecraft:foil": true,
+        "minecraft:should_despawn": false        
+      }
+    }
+  }
